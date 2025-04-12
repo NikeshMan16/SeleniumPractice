@@ -4,10 +4,11 @@ o	Print the page title and URL in the console."""
 
 from selenium import webdriver
 
-driver = webdriver.Chrome()
-url_to_fetch ="https://example.com"
+from BasicLevel.urls import url_automation
 
-driver.get(url_to_fetch)
+driver = webdriver.Chrome()
+
+driver.get(url_automation)
 page_tile = driver.title
 url_link = driver.current_url
 
