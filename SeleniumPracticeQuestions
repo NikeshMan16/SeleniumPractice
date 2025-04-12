@@ -1,0 +1,105 @@
+================== Basic Level (Getting Started with Selenium)========================
+
+1.	Launch a browser and navigate to a URL.
+o	Open Chrome and navigate to "https://example.com".
+o	Print the page title and URL in the console.
+2.	Find an element using different locators.
+o	Locate a search input field using ID, Name, XPath, and CSS Selector.
+o	Enter "Selenium WebDriver" in the search field and submit the form.
+3.	Click a button and verify navigation.
+o	Click on a "Login" button and verify if the user is redirected to the login page.
+4.	Handle a simple alert pop-up.
+o	Open a webpage with an alert box.
+o	Accept or dismiss the alert.
+5.	Extract text from a webpage.
+o	Navigate to "https://example.com".
+o	Print all the text present inside a specific <div> element.
+6.	Verify an element’s presence on the page.
+o	Check if a button exists on the page before clicking it.
+7.	Capture a screenshot of a webpage.
+o	Take a screenshot after navigating to a website and save it as a PNG file.
+8.	Check if a checkbox is selected or not.
+o	Locate a checkbox, click it, and verify if it is selected.
+9.	Interact with a dropdown menu.
+o	Select an option from a dropdown using three different methods:
+	By Index
+	By Visible Text
+	By Value
+10.	Retrieve all links from a webpage.
+o	Print all hyperlinks (<a> tags) available on a webpage.
+=========================================================================================================
+============ 🟡 Intermediate Level (Handling User Interactions) ================================
+
+11.	Automate Login Functionality.
+o	Open a login page, enter username and password, click login, and verify the result.
+12.	Handle multiple browser windows.
+o	Click on a link that opens in a new tab and switch to it.
+o	Extract its title and close it.
+13.	Perform mouse hover action.
+o	Hover over a menu item and click a submenu option.
+14.	Drag and drop an element.
+o	Automate a drag-and-drop action on a webpage.
+15.	Handle a file upload scenario.
+o	Automate a file upload using Selenium WebDriver.
+16.	Extract and validate data from a web table.
+o	Find a specific row and column value inside a table.
+17.	Automate double-click action.
+o	Perform a double-click on a button and verify the resulting action.
+18.	Handle an iframe.
+o	Switch to an iframe, perform some actions, and switch back to the main page.
+19.	Validate whether an image is loaded correctly.
+o	Fetch the src attribute of an <img> tag and verify the image URL.
+20.	Automate a dynamic search box.
+o	Enter a search term in a search bar and select an autocomplete suggestion dynamically.
+_____________________________________________________________________________________________________
+===================== 🔴 Advanced Level (Frameworks & Real-world Scenarios)==========================
+
+21.	Implement Page Object Model (POM).
+o	Create separate classes for LoginPage and DashboardPage.
+22.	Execute a test using TestNG.
+o	Write a TestNG test to verify login functionality.
+23.	Implement Data-Driven Testing using Excel.
+o	Read test data from an Excel sheet and execute login tests for multiple users.
+24.	Implement Parallel Execution using TestNG.
+o	Run two test cases in parallel across different browsers.
+25.	Integrate Extent Reports for Test Logging.
+o	Generate test execution reports with screenshots for failed test cases.
+26.	Handle CAPTCHA in Selenium.
+o	Use an external library (e.g., Tesseract OCR) to handle CAPTCHA.
+27.	Verify Broken Links on a Web Page.
+o	Fetch all <a> tags and check the HTTP status codes.
+28.	Automate Infinite Scrolling.
+o	Scroll to the bottom of an infinite-scrolling webpage dynamically.
+29.	Automate a Shopping Cart Workflow.
+o	Add an item to the cart, verify the total price, and proceed to checkout.
+30.	Perform API Testing Along with Selenium UI Tests.
+o	Use RestAssured to validate API responses before UI automation.
+____________________________________________________________________________________________________
+=============== 💡 Expert-Level Challenges (Complex Real-world Scenarios) ==========================
+
+31.	Run Selenium Tests in Docker Containers.
+o	Use Selenium Grid with Docker to execute parallel tests.
+32.	Handle Shadow DOM Elements.
+o	Automate a webpage containing Shadow DOM elements.
+33.	Capture Network Traffic in Selenium Tests.
+o	Use BrowserMob Proxy to capture network requests and responses.
+34.	Integrate Selenium with Jenkins for CI/CD.
+o	Set up an automated test pipeline using Jenkins.
+35.	Automate OAuth 2.0 Authentication.
+o	Automate login for an OAuth-based authentication system (e.g., Google login).
+36.	Use JavaScript Executor to Handle Dynamic Elements.
+o	Use JavaScript to click on hidden elements.
+37.	Simulate Slow Network Conditions in Selenium.
+o	Throttle network speed and observe how your automation behaves.
+38.	Test Performance of a Web Application Using Selenium.
+o	Measure page load time and validate performance benchmarks.
+39.	Handle Multi-Step Authentication (MFA/OTP).
+o	Automate login where OTP is required via email or SMS.
+40.	Automate Email Verification Process.
+o	Use Java Mail API or a third-party service to automate email verification.
+How to Proceed?
+•	Start from basic questions and gradually move to complex scenarios.
+•	Practice real-world workflows like logging in, adding items to a cart, checking out, etc.
+•	Implement frameworks like TestNG, POM, and CI/CD pipelines for complete automation solutions.
+Would you like sample code for any specific question? 🚀
+
