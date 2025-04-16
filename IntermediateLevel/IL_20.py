@@ -12,12 +12,12 @@ driver = webdriver.Chrome()
 driver.get("https://www.google.co.uk/")
 wait = WebDriverWait(driver,5)
 
-search_field = wait.until(EC.visibility_of_element_located((By.ID,'APjFqb')))
+search_field = wait.until(EC.visibility_of_element_located((By.ID,'APjFqb'))) # This is the search box field
 search_field.send_keys('selenium')
 
 suggestion_box = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR,'ul[role="listbox"]')))
 
-suggestions = suggestion_box.find_elements(By.CSS_SELECTOR,'li span')
+suggestions = suggestion_box.find_elements(By.CSS_SELECTOR,'li span')  #Extracts li tag bhitra bhaako span tags
 
 for suggestion in suggestions:
     print(suggestion.text)
